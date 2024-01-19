@@ -1,0 +1,27 @@
+* {
+    height: 75px;
+    color: #61e786;
+}
+
+#header {
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-nav {
+    display: flex;
+    align-items: center;
+    
+    gap: 10px;
+}
+
+#header-nav li {
+    font-size: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
